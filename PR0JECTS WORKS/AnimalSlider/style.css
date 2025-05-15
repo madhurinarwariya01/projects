@@ -181,3 +181,13 @@
 .item:nth-child(5) .bg{
     background: #070707;
 }
+@media (max-width: 600px) {
+    main { 
+        flex-direction: column;
+    }
+
+    .content, .sidebar {
+        width: 100%;
+        margin-bottom:20px;
+    }
+}
