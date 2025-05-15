@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 * {
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow:1
+    flex-basis:200;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
